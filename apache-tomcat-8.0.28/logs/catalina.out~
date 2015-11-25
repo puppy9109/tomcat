@@ -1,0 +1,1702 @@
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4346
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4347
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4348
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4349
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4350
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4351
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4352
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4353
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4354
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4355
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4356
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4357
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4358
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4359
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4360
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4361
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4362
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4363
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4364
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4365
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4366
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4367
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4368
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4369
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4370
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4371
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4372
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4373
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4374
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4375
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4376
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4377
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4378
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4379
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4380
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4381
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4382
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4097
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4098
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4099
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4100
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4101
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4102
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4103
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4104
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4105
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4106
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4107
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4108
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4109
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4110
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4111
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4112
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4113
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4114
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4115
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4116
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4117
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4118
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4119
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4120
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4121
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4122
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4123
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4124
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4125
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4126
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4127
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4128
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4129
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4130
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4131
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4132
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4133
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4134
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4135
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4136
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4137
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4138
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4139
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4140
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4141
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4142
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4143
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4144
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4145
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4146
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4147
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4148
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4149
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4150
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4151
+18-Nov-2015 23:48:05.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-15-generic
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/a514-5/jdk1.8.0_60/jre
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Nov-2015 23:48:05.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/a514-5/apache-tomcat-8.0.28/conf/logging.properties
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/a514-5/apache-tomcat-8.0.28/endorsed
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/a514-5/apache-tomcat-8.0.28/temp
+18-Nov-2015 23:48:05.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Nov-2015 23:48:05.387 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2015 23:48:05.402 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2015 23:48:05.405 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2015 23:48:05.406 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2015 23:48:05.409 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 409 ms
+18-Nov-2015 23:48:05.428 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Nov-2015 23:48:05.428 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+18-Nov-2015 23:48:05.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/manager
+18-Nov-2015 23:48:05.731 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:48:05.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/manager has finished in 335 ms
+18-Nov-2015 23:48:05.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/host-manager
+18-Nov-2015 23:48:05.845 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:48:05.846 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/host-manager has finished in 73 ms
+18-Nov-2015 23:48:05.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/docs
+18-Nov-2015 23:48:05.921 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:48:05.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/docs has finished in 76 ms
+18-Nov-2015 23:48:05.923 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/ROOT
+18-Nov-2015 23:48:05.985 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:48:05.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/ROOT has finished in 63 ms
+18-Nov-2015 23:48:05.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/examples
+18-Nov-2015 23:48:06.140 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:48:06.170 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/examples has finished in 183 ms
+18-Nov-2015 23:48:06.173 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2015 23:48:06.178 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2015 23:48:06.182 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 772 ms
+PowerConnection init
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4152
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4153
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4154
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4155
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4156
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4157
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4158
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4159
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4160
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4161
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4162
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4163
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4164
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4165
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4166
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4167
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4168
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4169
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4170
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4171
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4172
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4173
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4174
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4175
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4176
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4177
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4178
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4179
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4180
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4181
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4182
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4183
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4184
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4185
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4186
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4187
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4188
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4189
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4190
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4191
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4192
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP192.168.1.2
+CilentHost192.168.1.2
+CilentPort4193
+18-Nov-2015 23:51:39.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-15-generic
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/a514-5/jdk1.8.0_60/jre
+18-Nov-2015 23:51:39.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/a514-5/apache-tomcat-8.0.28/conf/logging.properties
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/a514-5/apache-tomcat-8.0.28/endorsed
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:51:39.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:51:39.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/a514-5/apache-tomcat-8.0.28/temp
+18-Nov-2015 23:51:39.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Nov-2015 23:51:39.984 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2015 23:51:40.001 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2015 23:51:40.003 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2015 23:51:40.005 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2015 23:51:40.006 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 421 ms
+18-Nov-2015 23:51:40.024 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Nov-2015 23:51:40.024 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+18-Nov-2015 23:51:40.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/manager
+18-Nov-2015 23:51:40.312 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:51:40.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/manager has finished in 322 ms
+18-Nov-2015 23:51:40.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/host-manager
+18-Nov-2015 23:51:40.425 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:51:40.426 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/host-manager has finished in 72 ms
+18-Nov-2015 23:51:40.426 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/docs
+18-Nov-2015 23:51:40.502 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:51:40.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/docs has finished in 78 ms
+18-Nov-2015 23:51:40.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/ROOT
+18-Nov-2015 23:51:40.567 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:51:40.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/ROOT has finished in 64 ms
+18-Nov-2015 23:51:40.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/examples
+18-Nov-2015 23:51:40.726 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:51:40.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/examples has finished in 188 ms
+18-Nov-2015 23:51:40.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2015 23:51:40.766 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2015 23:51:40.767 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 761 ms
+PowerConnection init
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4194
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4195
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4196
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4197
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4198
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4199
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4200
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4201
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4202
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4203
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4204
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4205
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4206
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4207
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4208
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4209
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4210
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4211
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4212
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4213
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4214
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4215
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4216
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4217
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4218
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4219
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4220
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4221
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4222
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4223
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4224
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4225
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4226
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4227
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4228
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4229
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4230
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4231
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4232
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4233
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4234
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4235
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4236
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4237
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4238
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4239
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4240
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4241
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4242
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4243
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4244
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4245
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4246
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4247
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4248
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4249
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4250
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4251
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4252
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4253
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4254
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4255
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4256
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4257
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4258
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4259
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4260
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4261
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4262
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4263
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4264
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4265
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4266
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4267
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4268
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4269
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4270
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4271
+18-Nov-2015 23:58:19.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-15-generic
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/a514-5/jdk1.8.0_60/jre
+18-Nov-2015 23:58:19.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/a514-5/apache-tomcat-8.0.28/conf/logging.properties
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/a514-5/apache-tomcat-8.0.28/endorsed
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/a514-5/apache-tomcat-8.0.28
+18-Nov-2015 23:58:19.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/a514-5/apache-tomcat-8.0.28/temp
+18-Nov-2015 23:58:19.359 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18-Nov-2015 23:58:19.464 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Nov-2015 23:58:19.479 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2015 23:58:19.481 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2015 23:58:19.483 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Nov-2015 23:58:19.484 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 408 ms
+18-Nov-2015 23:58:19.503 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Nov-2015 23:58:19.503 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+18-Nov-2015 23:58:19.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/manager
+18-Nov-2015 23:58:19.792 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:58:19.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/manager has finished in 322 ms
+18-Nov-2015 23:58:19.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/host-manager
+18-Nov-2015 23:58:19.909 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:58:19.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/host-manager has finished in 77 ms
+18-Nov-2015 23:58:19.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/docs
+18-Nov-2015 23:58:19.985 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:58:19.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/docs has finished in 75 ms
+18-Nov-2015 23:58:19.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/ROOT
+18-Nov-2015 23:58:20.047 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:58:20.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/ROOT has finished in 62 ms
+18-Nov-2015 23:58:20.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/examples
+18-Nov-2015 23:58:20.203 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2015 23:58:20.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/a514-5/apache-tomcat-8.0.28/webapps/examples has finished in 182 ms
+18-Nov-2015 23:58:20.234 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Nov-2015 23:58:20.238 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Nov-2015 23:58:20.239 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 754 ms
+PowerConnection init
+sql: select * from admin where name='192.168.1.2' order by mtime desc limit 1
+sql:insert into mpower(mip,mtime,nCount,pState)values(?,now(),?,?)
+PowerConnection sql:	select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlSQLResult: select * from mpower where mip='192.168.1.2' order by mtime desc limit 1
+HtmlResult pState:x
+CilentIP:	192.168.1.2
+CilentHost:	192.168.1.2
+CilentPort:	4272
