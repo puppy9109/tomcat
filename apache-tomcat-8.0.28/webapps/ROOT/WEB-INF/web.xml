@@ -15,36 +15,80 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
-                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-  version="3.1"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
   metadata-complete="true">
 
   <display-name>Welcome to Tomcat</display-name>
   <description>
      Welcome to Tomcat
   </description>
-  
-  <servlet>
-   <servlet-name>PowerConnection</servlet-name>
-   <servlet-class>PowerConnection</servlet-class>
-  </servlet>
+    <servlet>
+      <servlet-name>TestJDBC</servlet-name>
+      <servlet-class>TestJDBC</servlet-class>
+    </servlet>
 
-  <servlet-mapping>
-   <servlet-name>PowerConnection</servlet-name>
-   <url-pattern>/PowerConnection</url-pattern>
-  </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestJDBC</servlet-name>
+        <url-pattern>/TestJDBC</url-pattern>
+    </servlet-mapping>
+/*<servlet>
+      <servlet-name>ConnectionServlet</servlet-name>
+      <servlet-class>ConnectionServlet</servlet-class>
+    </servlet>
 
-  <servlet>
-   <servlet-name>AdminConnection</servlet-name>
-   <servlet-class>AdminConnection</servlet-class>
-  </servlet>
+    <servlet-mapping>
+        <servlet-name>ConnectionServlet</servlet-name>
+        <url-pattern>/ConnectionServlet</url-pattern>
+    </servlet-mapping>*/
+<servlet>
+      <servlet-name>PowerConnection</servlet-name>
+      <servlet-class>PowerConnection</servlet-class>
+    </servlet>
 
-  <servlet-mapping>
-   <servlet-name>AdminConnection</servlet-name>
-   <url-pattern>/AdminConnection</url-pattern>
-  </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PowerConnection</servlet-name>
+        <url-pattern>/PowerConnection</url-pattern>
+    </servlet-mapping>
+<servlet>
+      <servlet-name>CarInfo</servlet-name>
+      <servlet-class>CarInfo</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>CarInfo</servlet-name>
+        <url-pattern>/CarInfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+         <servlet-name>LightInfo</servlet-name>
+      <servlet-class>LightInfo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LightInfo</servlet-name>
+        <url-pattern>/LightInfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+         <servlet-name>ParkingCar</servlet-name>
+      <servlet-class>ParkingCar</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ParkingCar</servlet-name>
+        <url-pattern>/ParkingCar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+         <servlet-name>ParkQuery</servlet-name>
+      <servlet-class>ParkQuery</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ParkQuery</servlet-name>
+        <url-pattern>/ParkQuery</url-pattern>
+    </servlet-mapping>
 </web-app>

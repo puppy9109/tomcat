@@ -1,0 +1,1001 @@
+<html>
+<meta charset="UTF-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react-dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.27.3/react-bootstrap.js"></script>
+
+<body>
+	<div id="main">1234</div>
+	
+</body>
+
+
+
+<script type="text/jsx">
+	var queryR;
+	var myVar;
+	var count = 0;
+
+	function ccc(kk, pp, qq) {
+		var jsonURL = "/ParkQuery";
+		$.ajax({
+			dataType: "json",
+			url: jsonURL,
+			data: '',
+			async: false,
+			success: function(data) {
+				queryR = data;
+//				alert (data);
+//				console.log ('queryR:');
+//				console.log (queryR);
+				
+//				console.log (queryR.CarInfo[0].sn);
+			 	
+				
+			}
+		});
+
+		var self = kk;
+
+		var countx=1;
+		for (countx=1;countx<=28;countx++) {
+			var parkStr = "park"+countx;
+			self.setState ({[parkStr]:'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeN6qlsfHaZsFkwLxUflYoCcWybixzv1TxddFJARdBfl6hbRx2eg'});
+		}
+	
+
+		var carinfo = queryR.CarInfo[0];
+		
+		queryR.CarInfo.forEach (
+			function (pp) {
+//				console.log ('pp:');
+//				console.log (pp);
+				
+				var spaceStr = pp.space;
+//				console.log ('spaceStr:'+spaceStr);
+
+				var parkStr = "park"+spaceStr;
+				
+				self.setState ({[parkStr]:'http://www.drakecircus.com/sites/all/modules/apps/app_facilities/icons/car-parking.png'});
+			}
+		);
+	}
+
+	var ButtonsInstance = React.createClass ({
+	
+	getInitialState: function() {
+	
+		return { 
+		
+			value: '' , carposition: '', carstarttime:'',carovertime: '',carmoney:'',carallposition:'',carremainposition:'',
+
+lightstatus:'',lightlightid:'',lightstarttime:'',lightusetime:'',lightovertime:'',myStartFunction:''};
+	},
+	componentWillMount: function() {
+		myVar = setInterval(ccc,3000,this,'1','2');
+//		alert ('Im componetDidMount');
+		var self = this;
+
+		var countx=1;
+		for (countx=1;countx<=28;countx++) {
+			var parkStr = "park"+countx;
+			this.setState ({[parkStr]:'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeN6qlsfHaZsFkwLxUflYoCcWybixzv1TxddFJARdBfl6hbRx2eg'});
+			
+		}
+		
+	},
+
+	caridOnChange: function(e) {
+		this.setState({carid: e.target.value});
+	},
+	carpositionOnChange: function(e) {
+		this.setState({carposition: e.target.value});
+	},
+	carstarttimeOnChange: function(e) {
+		this.setState({carstarttime: e.target.value});
+	},
+	carovertimeOnChange: function(e) {
+		this.setState({carovertime: e.target.value});
+	},
+	carmoneyOnChange: function(e) {
+		this.setState({carmoney: e.target.value});
+	},
+	carallpositionOnChange: function(e) {
+		this.setState({carallposition: e.target.value});
+	},
+	carremainpositionOnChange: function(e) {
+		this.setState({carremainposition: e.target.value});
+	},
+	setCarid: function(caridStr) {
+		this.setState ({carid: caridStr});
+	},
+    	myStartFunction: function() {
+/*
+        	myVar = setInterval(function(){
+		this.setState({carid: ''});
+                this.setState({carposition: ''});
+                this.setState({carspace: ''});   
+                this.setState({carmoney: ''});   
+                this.setState({carallspace: ''});
+                this.setState({carremainposition: ''});
+                this.setState({carovertime: ''}); 
+                this.setState({carstarttime: ''});
+		this.setState({carmoney: ''});
+		this.setState({carallspace: ''});
+		this.setState({carremainposition: ''});
+		this.setState({carovertime: ''});
+		this.setState({carstarttime: ''});
+		},3000);
+*/
+	},
+	carOnClear: function(){
+                this.setState({carid: ''});
+                this.setState({carposition: ''});
+                this.setState({carspace: ''});   
+                this.setState({carmoney: ''});   
+                this.setState({carallspace: ''});
+                this.setState({carremainposition: ''});
+                this.setState({carovertime: ''}); 
+                this.setState({carstarttime: ''});
+                this.setState({carmoney: ''});   
+                this.setState({carallspace: ''});
+                this.setState({carremainposition: ''});
+                this.setState({carovertime: ''}); 
+                this.setState({carstarttime: ''});
+
+	},
+	carOnSubmit: function(){
+//		alert ('hi');
+//		alert (this.refs.carid.getValue());
+		var carid = this.refs.carid.getValue();
+		var carposition = this.refs.carposition.getValue();
+		
+		var queryString = "number="+carid+"&space="+carposition;
+		var jsonURL = "/CarInfo?"+queryString;
+		console.log (jsonURL);
+		
+		var self = this;
+
+		var countx=1;
+		for (countx=1;countx<=28;countx++) {
+			var parkStr = "park"+countx;
+			self.setState ({[parkStr]:'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeN6qlsfHaZsFkwLxUflYoCcWybixzv1TxddFJARdBfl6hbRx2eg'});
+		}
+		
+		$.get(jsonURL, function (data) {
+			console.log ('data :'+data);
+//			this.setState({cardid:'1'});
+		});
+		
+		$.ajax({
+			dataType: "json",
+			url: jsonURL,
+			data: carid,
+			async: false,
+			success: function(data) {
+				queryR = data;
+//				alert (data);
+				console.log ('queryR:');
+				console.log (queryR);
+				
+				console.log (queryR.CarInfo[0].sn);
+			 	
+				
+			}
+		});
+	
+		var carinfo = queryR.CarInfo[0];
+		
+		this.setState({carid: carinfo.number}); 
+		this.setState({carposition: carinfo.space});
+		this.setState({carstarttime: carinfo.startDate});
+		this.setState({carovertime: carinfo.overDate});
+		this.setState({carmoney: carinfo.money});
+		this.setState({carallposition: carinfo.allspace});
+		this.setState({carramainposition: carinfo.remainspace});
+		
+		queryR.CarInfo.forEach (
+			function (pp) {
+				console.log ('pp:');
+				console.log (pp);
+				
+				var spaceStr = pp.space;
+				console.log ('spaceStr:'+spaceStr);
+
+				var parkStr = "park"+spaceStr;
+				
+				self.setState ({[parkStr]:'http://www.drakecircus.com/sites/all/modules/apps/app_facilities/icons/car-parking.png'});
+			}
+		);
+		
+//		alert ();
+//		this.setState ({carid : "5678"});
+//		carid = "5678";
+	},
+	 lightstatusOnChange: function(e){
+                this.setState({lightstatus: e.target.value});
+        },
+        lightlightidOnChange: function(e){
+                this.setState({lightlightid: e.target.value});
+        },
+        lightstarttimeOnChange: function(e){
+                this.setState({lightstarttime: e.target.value});
+        },
+        lightusetimeOnChange: function(e){
+                this.setState({lightusetime: e.tartget.value});
+        },
+        lightovertimeOnChange: function(e){
+                this.setState({lightovertime: e.target.value});
+        },
+
+	LightClear: function() {
+                this.setState({lightstatus: ''});   
+                this.setState({lightlightid: ''});   
+                this.setState({lightstarttime: ''});
+                this.setState({lightusetime: ''}); 
+                this.setState({lightovertime: ''});
+        },
+	LightOnSubmit: function() {
+		var lightstatus = this.refs.lightstatus.getValue();
+		var lightlightid= this.refs.lightlightid.getValue();
+
+                var queryString = "status="+lightstatus+"&lightid="+lightlightid;
+                var jsonURL = "/LightInfo?"+queryString;
+                console.log (jsonURL);
+                
+                $.get(jsonURL, function (data) {
+                        console.log ('data :'+data);
+                });
+
+                $.ajax({
+                        dataType: "json",
+                        url: jsonURL,
+                        data: lightstatus, 
+                        async: false,
+                        success: function(data) {
+                                queryR = data;
+//                              alert (data);
+                                console.log ('queryR:');
+                                console.log (queryR);
+                         
+                                //console.log (queryR.LightInfo[0].sn);
+                         
+                         
+                        }
+                });
+                
+
+		if (queryR.LightInfo.length>0) {
+	                var lightinfo = queryR.LightInfo[0];
+        	        console.log ('lightinfo:');
+			console.log (lightinfo);
+
+	                this.setState({lightstatus: lightinfo.status}); 
+        	        this.setState({lightlightid: lightinfo.lightid});
+                	this.setState({lightstarttime: lightinfo.startTime});
+	                this.setState({lightusetime: lightinfo.useTime});
+	                this.setState({lightovertime: lightinfo.overTime});
+	        } else {
+	                this.setState({lightstatus: ''}); 
+        	        this.setState({lightlightid: ''});
+                	this.setState({lightstarttime: ''});
+	                this.setState({lightusetime: ''});
+	                this.setState({lightovertime: ''});
+	        }
+	},
+	
+	render: function() {
+		var ButtonsInstance=ReactBootstrap.ButtonsInstance;
+		var Grid = ReactBootstrap.Grid;
+		var Row= ReactBootstrap.Row;
+		var Col= ReactBootstrap.Col;
+		var Label=ReactBootstrap.Label;
+		var ButtonToolbar=ReactBootstrap.ButtonToolbar;
+		var Button=ReactBootstrap.Button;
+		var Input =ReactBootstrap.Input;
+		var Tabs =ReactBootstrap.Tabs;
+		var Tab =ReactBootstrap.Tab;
+		var Image=ReactBootstrap.Image;
+
+		return (
+ 
+ 
+ 
+ 
+ 
+ <Grid>
+    
+
+     <Tabs defaultActiveKey={1}>
+            	<Tab eventKey={1} title="停車場設備監控">
+			<Row className="show-grid">
+          			<Col xs={12} md={12}><h1><Label>停車場設備監控</Label></h1></Col>
+    			</Row>
+
+     
+     			<Row className="show-grid">
+      	  
+     			</Row>
+
+
+     			<Row className="show-grid">
+          			<Col xs={2} md={2}><div><ButtonToolbar><Button bsStyle="primary" bsSize="large">停車狀態</Button></ButtonToolbar></div></Col>
+				<Col xs={3} md={3}>
+					<Input  bsSize="large" type="text" ref="input" groupClassName="group-class" labelClassName="label-class" />
+				</Col>
+          			<Col xs={2} md={2}><ButtonToolbar><Button bsStyle="primary" bsSize="large">空調設備</Button></ButtonToolbar></Col>
+				<Col xs={3} md={3}>
+					<Input bsSize="large"  type="text" ref="input" groupClassName="group-class" labelClassName="label-class" />
+          			</Col>
+    			 </Row>
+
+     			<Row className="show-grid">
+          			<Col xs={2} md={2}><div><ButtonToolbar><Button bsStyle="primary" bsSize="large">燈光設備</Button></ButtonToolbar></div></Col>
+          			<Col xs={3} md={3}>
+					<Input  bsSize="large" type="text" ref="input" groupClassName="group-class" labelClassName="label-class" />
+          			</Col>
+          			<Col xs={2} md={2}><ButtonToolbar><Button bsStyle="primary" bsSize="large">消防設備</Button></ButtonToolbar></Col>
+          			<Col xs={3} md={3}>
+					<Input bsSize="large"  type="text" ref="input" groupClassName="group-class" labelClassName="label-class" />
+          			</Col>
+		      </Row>
+
+		     <Row className="show-grid">
+          			<Col xs={2} md={2}><div><ButtonToolbar><Button bsStyle="primary" bsSize="large">排煙設備</Button></ButtonToolbar></div></Col>
+          			<Col xs={3} md={3}>
+					<Input  bsSize="large" type="text" ref="input" groupClassName="group-class" labelClassName="label-class" />
+          			</Col>
+          			<Col xs={2} md={2}><ButtonToolbar><Button bsStyle="primary" bsSize="large">整體設備</Button></ButtonToolbar></Col>
+          			<Col xs={3} md={3}>
+					<Input bsSize="large"  type="text" ref="input" groupClassName="group-class" labelClassName="label-class" />
+          			</Col>
+     		     </Row>
+		
+		
+	    </Tab>
+            <Tab eventKey={2} title="停車場系統">
+  <Grid fluid="true">
+     <Row>
+	<Col md={6} lg={6}>
+	    	    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.caridOnChange} value={this.state.carid} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="車號" type="text"
+          			ref="carid" />
+				</Col>
+    		    </Row>
+	
+
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.carpositionOnChange} value={this.state.carposition}  labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="車位" type="text" 
+				ref="carposition" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.carstarttimeOnChange} value={this.state.carstarttime} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="開始時間" type="text" 
+				ref="cartime" />
+				</Col>
+    		    </Row>
+    		    
+		     <Row className="show-grid">
+                                <Col md={12}>  
+                                <Input onChange={this.carovertimeOnChange} value={this.state.carovertime} labelClassName="col-xs-1"  bsSize="large" wrapperClassName="col-xs-120" addonBefore="結束時間" type="text"
+                                ref="cartime" />
+                                </Col>
+                    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.carmoneyOnChange} value={this.state.carmoney} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="費用金額" type="text"
+				 ref="carmoney" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.carallpositionOnChange} value={this.state.carallposition} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="總車位數" type="text"
+          			ref="carallposition" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.carremainpositionOnChange} value={this.state.carremainposition} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="剩餘車位數" type="text"
+          			ref="carrmainposition" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+				<Col xs={4} md={4}><div>
+					<Button bsStyle="primary" bsSize="large" block onClick={this.carOnSubmit}>查詢</Button>
+					<Button bsStyle="primary" bsSize="large" block onClick={this.carOnClear}>清除</Button>
+				</div></Col>
+          		
+		    </Row>
+
+	</Col>
+	<Col md={6}>
+              <Row>
+		<Grid>
+                   <Col md={12}>
+		    <Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park1} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park2} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park3} thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}>
+			  	 		<Image src={this.state.park4} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park5} thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park6} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park7} thumbnail bsSize="small" /></div> </Button>
+			  </Col>
+                    </Row>
+		    <Row>
+				<Col md={12}><div style={{width: 30, height: '60'}}><Image src="http://www.iconsdb.com/icons/preview/white/square-rounded-xxl.png" /></div>
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park8} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park9} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park10} thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}>
+			  	 		<Image src={this.state.park11} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park12} thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park13} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park14} thumbnail bsSize="small" /></div> </Button>
+			  </Col>
+			</Row>
+		    
+			<Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park15} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park16} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park17} thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}>
+			  	 		<Image src={this.state.park18} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park19} thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park20} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park21} thumbnail bsSize="small" /></div> </Button>
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}><div style={{width: 30, height: '60'}}><Image src="http://www.iconsdb.com/icons/preview/white/square-rounded-xxl.png" /></div>
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park22} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park23} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park24} thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}>
+			  	 		<Image src={this.state.park25} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park26} thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}>
+						<Image src={this.state.park27} thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}>
+			  			<Image src={this.state.park28} thumbnail bsSize="small" /></div> </Button>
+			  </Col>
+			</Row>
+                      </Col>
+		    </Grid>
+                  </Row>
+	</Col>
+     </Row>
+  </Grid>
+ </Tab>
+            <Tab eventKey={3} title="燈光設備系統">
+	  	    <Grid fluid="true">
+     <Row>
+	<Col md={6} lg={6}>
+	    	    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.lightstatusOnChange} value={this.state.lightstatus} labelClassName="col-xs-1" bsSize="large"  wrapperClassName="col-xs-120" addonBefore="設備狀態" type="text"
+ref="lightstatus" />
+				</Col>
+    		    </Row>
+	
+
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.lightlightidOnChange} value={this.state.lightlightid} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="有人\無人" type="text"
+ref="lightlightid" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.lightstarttimeOnChange} value={this.state.lightstarttime} labelClassName="col-xs-1"  bsSize="large" wrapperClassName="col-xs-120" addonBefore="燈亮時間" type="text"
+ref="lightstarttime" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.lightusetimeOnChange} value={this.state.lightusetime} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="使用時間" type="text"
+ref="lightusetime" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input onChange={this.lightovertimeOnChange} value={this.state.lightovertime} labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="燈滅時間" type="text"
+ref="lightovertime" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="尖峰時段" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="單日能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="一週能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="一個月能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="半年能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="一年能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    
+		     <Row className="show-grid">
+                                <Col xs={4} md={4}><div>
+                                        <Button bsStyle="primary" bsSize="large" block onClick={this.LightOnSubmit}>查詢</Button>
+                                        <Button bsStyle="primary" bsSize="large" block onClick={this.LightClear}>清除</Button>
+                                </div></Col>
+          
+                    </Row>
+
+
+
+	</Col>
+	<Col md={6}>
+              <Row>
+		<Grid>
+                   <Col md={12}>
+		    <Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+			  </Col>
+                    </Row>
+		    <Row>
+				<Col md={12}><div style={{width: 30, height: '60'}}><Image src="http://www.iconsdb.com/icons/preview/white/square-rounded-xxl.png" /></div>
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  	 	<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button>
+					<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  		<Button>     <div style={{width: 60, height: 'auto'}}><Image src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/256/bulb.png" thumbnail bsSize="small" /></div> </Button> 
+			  </Col>
+			</Row>
+                      </Col>
+		    </Grid>
+                  </Row>
+	</Col>
+     </Row>
+  </Grid>
+	    </Tab>
+	    <Tab eventKey={4} title="空調設備系統">
+	    	     <Grid fluid="true">
+     <Row>
+	<Col md={6} lg={6}>
+	    	    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="設備狀態" type="text" ref="input" />
+				</Col>
+    		    </Row>
+	
+
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="溫度" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="濕度" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="開機時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="使用時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="關機時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="尖峰時段" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="單日能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="一週能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="一個月能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="半年能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="一年能耗統計" type="text" ref="input" />
+				</Col>
+		    </Row>
+
+
+	</Col>
+	<Col md={6}>
+              <Row>
+		<Grid>
+                   <Col md={12}>
+		    <Row>
+			  <Col md={12}>    
+					
+
+
+
+			  </Col>
+                    </Row>
+		    <Row>
+				<Col md={12}><div style={{width: 30, height: '60'}}><Image src="http://www.iconsdb.com/icons/preview/white/square-rounded-xxl.png" /></div>
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+
+
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+
+
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+			  </Col>
+			</Row>
+                      </Col>
+		    </Grid>
+                  </Row>
+	</Col>
+     </Row>
+  </Grid>
+	    </Tab>
+	    <Tab eventKey={5} title="消防設備系統">
+		  	     <Grid fluid="true">
+     <Row>
+	<Col md={6} lg={6}>
+	    	    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="設備狀態" type="text" ref="input" />
+				</Col>
+    		    </Row>
+	
+
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="溫度" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="灑水器" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="警報器" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="開啟時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="燈滅時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="使用時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		   
+		    <Row className="show-grid">
+		    		<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="關閉時間" type="text" ref="input" />
+				</Col>
+		    </Row>
+		
+	</Col>
+	<Col md={6}>
+              <Row>
+		<Grid>
+                   <Col md={12}>
+		    <Row>
+			  <Col md={12}>    
+					
+
+
+			  </Col>
+                    </Row>
+		    <Row>
+				<Col md={12}><div style={{width: 30, height: '60'}}><Image src="http://www.iconsdb.com/icons/preview/white/square-rounded-xxl.png" /></div>
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					 
+
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+
+			  </Col>
+			</Row>
+                      </Col>
+		    </Grid>
+                  </Row>
+	</Col>
+     </Row>
+  </Grid>
+	    </Tab>
+	    <Tab eventKey={6} title="排煙設備系統">
+		        <Grid fluid="true">
+     <Row>
+	<Col md={6} lg={6}>
+	    	    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="設備狀態" type="text" ref="input" />
+				</Col>
+    		    </Row>
+	
+
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="消防設備是否啟動" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="開啟時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		    
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="使用時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		  
+		    <Row className="show-grid">
+          			<Col md={12}>
+				<Input labelClassName="col-xs-1"  bsSize="large"  wrapperClassName="col-xs-120" addonBefore="關閉時間" type="text" ref="input" />
+				</Col>
+    		    </Row>
+		
+	</Col>
+	<Col md={6}>
+              <Row>
+		<Grid>
+                   <Col md={12}>
+		    <Row>
+			  <Col md={12}>    
+					
+
+
+			  </Col>
+                    </Row>
+		    <Row>
+				<Col md={12}><div style={{width: 30, height: '60'}}><Image src="http://www.iconsdb.com/icons/preview/white/square-rounded-xxl.png" /></div>
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					 
+
+			  </Col>
+			</Row>
+		    <Row>
+				<Col md={12}>&nbsp;
+				</Col>
+		    </Row>
+			<Row>
+			  <Col md={12}>    
+					
+
+
+			  </Col>
+			</Row>
+                      </Col>
+		    </Grid>
+                  </Row>
+	</Col>
+     </Row>
+  </Grid>
+	    </Tab>
+     </Tabs>
+
+
+
+     
+
+    
+
+  </Grid>
+
+      );
+    }    
+});
+
+
+ReactDOM.render(<ButtonsInstance />, document.getElementById('main'));
+</script>
+</html>
